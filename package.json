@@ -4,7 +4,9 @@
   "description": "Recipe application",
   "default": "controller.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
+    "dev": "webpack"
   },
   "author": "Ercan Akalar",
   "license": "ISC",
@@ -29,3 +31,4 @@
     "regenerator-runtime": "^0.13.9"
   }
 }
+
